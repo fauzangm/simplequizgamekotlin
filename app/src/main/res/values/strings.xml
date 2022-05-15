@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizNinja</string>
+    <string name="start">START!</string>
+    <string name="guess_the_animal_in_english">GUESS THE ANIMAL IN ENGLISH</string>
+</resources>

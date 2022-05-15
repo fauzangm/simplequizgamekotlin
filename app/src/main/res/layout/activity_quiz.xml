@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="@drawable/bgquiz"
+    >
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bgquestion"
+        android:text="@string/guess_the_animal_in_english"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/tvS"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgpink"
+        android:text="S"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="60dp"/>
+
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:background="@drawable/btn_pink"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/tvE"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgpink"
+        android:text="E"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="260dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:id="@+id/tvK"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgpink"
+        android:text="K"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="130dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:id="@+id/tvN"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgpink"
+        android:text="N"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:id="@+id/tvA"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgpink"
+        android:text="A"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginRight="260dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="60dp"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="100dp"
+        app:lottie_rawRes="@raw/cathero"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lot_monster"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp"
+        app:lottie_rawRes="@raw/enemy11"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/skillone"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp"
+        app:lottie_rawRes="@raw/skillfiretwo"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/skilltwo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp"
+        app:lottie_rawRes="@raw/skillthunder"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <Button
+        android:id="@+id/btn_skilltwo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/skilltwo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_skillone" />
+
+    <Button
+        android:id="@+id/btn_skillone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/skillthree"/>
+
+
+    <TextView
+        android:textSize="30sp"
+        tools:text="SNAKE"
+        android:id="@+id/tv_Answer"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bgquestion"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
